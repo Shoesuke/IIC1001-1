@@ -1,6 +1,7 @@
-from function import saludar
+from function import *
 
 print("Indicame tu nombre: ")
 nombre = input()
 
 saludar(nombre)
+despedirse(nombre)
